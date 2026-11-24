@@ -240,8 +240,8 @@ importers:
         specifier: ^5.1.0
         version: 5.1.0(webpack@5.112.2)
       html-webpack-plugin:
-        specifier: ^5.5.0
-        version: 5.6.7(webpack@5.112.2)
+        specifier: ^5.6.8
+        version: 5.6.8(webpack@5.112.2)
       iconv-lite:
         specifier: ^0.7.3
         version: 0.7.3
@@ -1647,20 +1647,9 @@ packages:
     resolution: {integrity: sha512-eKLdI5v9m67kbXQbJSNn1zjh0SDzvzWVWtX+qEI3eMjZw8daH9k8rlj1FZY9memPwjiskQFbe7vHVVJIAqoEhw==}
     engines: {node: '>= 4'}
 
-  domhandler@4.0.0:
-    resolution: {integrity: sha512-KPTbnGQ1JeEMQyO1iYXoagsI6so/C96HZiFyByU3T6iAzpXn8EGEvct6unm1ZGoed8ByO2oirxgwxBmqKF9haA==}
-    engines: {node: '>= 4'}
-
-  domhandler@4.1.0:
-    resolution: {integrity: sha512-/6/kmsGlMY4Tup/nGVutdrK9yQi4YjWVcVeoQmixpzjOUK1U7pQkvAPHBJeUxOgxF0J8f8lwCJSlCfD0V4CMGQ==}
-    engines: {node: '>= 4'}
-
   domhandler@4.2.0:
     resolution: {integrity: sha512-zk7sgt970kzPks2Bf+dwT/PLzghLnsivb9CcxkvR8Mzr66Olr0Ofd8neSbglHJHaHa2MadfoSdNlKYAaafmWfA==}
     engines: {node: '>= 4'}
-
-  domutils@2.5.2:
-    resolution: {integrity: sha512-MHTthCb1zj8f1GVfRpeZUbohQf/HdBos0oX5gZcQFepOZPLLRyj6Wn7XS7EMnY7CVpwv8863u2vyE83Hfu28HQ==}
 
   domutils@2.6.0:
     resolution: {integrity: sha512-y0BezHuy4MDYxh6OvolXYsH+1EMGmFbwv5FKW7ovwMG6zTPWqNPq3WF9ayZssFq+UlKdffGLbOEaghNdaOm1WA==}
@@ -2111,11 +2100,11 @@ packages:
     resolution: {integrity: sha512-n6l5uca7/y5joxZ3LUePhzmBFUJ+U2YWzhMa8XUTecSeSlQiZdF5XAd/Q3/WUl0VsXgUwWi8I7CNIwdI5WN1SQ==}
     engines: {node: '>=20.10'}
 
-  html-webpack-plugin@5.6.7:
-    resolution: {integrity: sha512-md+vXtdCAe60s1k6AU3dUyMJnDxUyQAwfwPKoLisvgUF1IXjtlLsk2se54+qfL9Mdm26bbwvjJybpNx48NKRLw==}
+  html-webpack-plugin@5.6.8:
+    resolution: {integrity: sha512-MZmKQcTnhEh1SPSyMiEytIeDZDUoBZVorNHivQGXMASHf/BSGGOrKa2xQ5bGx3TCe1n109ecCt+cpww7wwWhKA==}
     engines: {node: '>=10.13.0'}
     peerDependencies:
-      '@rspack/core': 0.x || 1.x
+      '@rspack/core': 0.x || 1.x || 2.x
       webpack: ^5.20.0
     peerDependenciesMeta:
       '@rspack/core':
@@ -4561,23 +4550,9 @@ snapshots:
     dependencies:
       domelementtype: 2.3.0
 
-  domhandler@4.0.0:
-    dependencies:
-      domelementtype: 2.3.0
-
-  domhandler@4.1.0:
-    dependencies:
-      domelementtype: 2.3.0
-
   domhandler@4.2.0:
     dependencies:
       domelementtype: 2.3.0
-
-  domutils@2.5.2:
-    dependencies:
-      dom-serializer: 1.0.1
-      domelementtype: 2.3.0
-      domhandler: 4.1.0
 
   domutils@2.6.0:
     dependencies:
@@ -5133,7 +5108,7 @@ snapshots:
 
   html-tags@5.1.0: {}
 
-  html-webpack-plugin@5.6.7(webpack@5.112.2):
+  html-webpack-plugin@5.6.8(webpack@5.112.2):
     dependencies:
       '@types/html-minifier-terser': 6.1.0
       html-minifier-terser: 6.1.0
@@ -5146,8 +5121,8 @@ snapshots:
   htmlparser2@6.1.0:
     dependencies:
       domelementtype: 2.3.0
-      domhandler: 4.0.0
-      domutils: 2.5.2
+      domhandler: 4.2.0
+      domutils: 2.6.0
       entities: 2.0.0
 
   http-cache-semantics@4.2.0: {}
