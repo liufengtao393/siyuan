@@ -207,8 +207,8 @@ importers:
         specifier: ^10.1.0
         version: 10.1.0
       css-loader:
-        specifier: ^7.1.2
-        version: 7.1.4(webpack@5.112.2)
+        specifier: ^7.1.5
+        version: 7.1.5(webpack@5.112.2)
       dayjs:
         specifier: ^1.11.23
         version: 1.11.23
@@ -1564,8 +1564,8 @@ packages:
     resolution: {integrity: sha512-8HFEBPKhOpJPEPu70wJJetjKta86Gw9+CCyCnB3sui2qQfOvRyqBy4IKLKKAwdMpWb2lHXWk9Wb4Z6AmaUT1Pg==}
     engines: {node: '>=12'}
 
-  css-loader@7.1.4:
-    resolution: {integrity: sha512-vv3J9tlOl04WjiMvHQI/9tmIrCxVrj6PFbHemBB1iihpeRbi/I4h033eoFIhwxBBqLhI0KYFS7yvynBFhIZfTw==}
+  css-loader@7.1.5:
+    resolution: {integrity: sha512-Q7iAfQkU2twNBryKX/vGAlE+GAmkF7quhSzAGNK8fBimxk3+tqg245rH52UPb9dioBolBc8rP0ihmHBaDTJQBA==}
     engines: {node: '>= 18.12.0'}
     peerDependencies:
       '@rspack/core': 0.x || ^1.0.0 || ^2.0.0-0
@@ -2912,11 +2912,6 @@ packages:
 
   semver@7.7.4:
     resolution: {integrity: sha512-vFKC2IEtQnVhpT78h1Yp8wzwrf8CM+MzKMHGJZfBtzhZNycRFnXsHk6E5TxIkkMsgNS7mdX3AGB7x2QM2di4lA==}
-    engines: {node: '>=10'}
-    hasBin: true
-
-  semver@7.8.0:
-    resolution: {integrity: sha512-AcM7dV/5ul4EekoQ29Agm5vri8JNqRyj39o0qpX6vDF2GZrtutZl5RwgD1XnZjiTAfncsJhMI48QQH3sN87YNA==}
     engines: {node: '>=10'}
     hasBin: true
 
@@ -4465,7 +4460,7 @@ snapshots:
 
   css-functions-list@3.3.3: {}
 
-  css-loader@7.1.4(webpack@5.112.2):
+  css-loader@7.1.5(webpack@5.112.2):
     dependencies:
       icss-utils: 5.1.0(postcss@8.5.33)
       postcss: 8.5.33
@@ -4474,7 +4469,7 @@ snapshots:
       postcss-modules-scope: 3.2.1(postcss@8.5.33)
       postcss-modules-values: 4.0.0(postcss@8.5.33)
       postcss-value-parser: 4.2.0
-      semver: 7.8.0
+      semver: 7.8.5
     optionalDependencies:
       webpack: 5.112.2(clean-css@5.3.3)(esbuild@0.28.1)(html-minifier-terser@6.1.0)(postcss@8.5.33)(sharp@0.35.5(@types/node@24.19.2))(webpack-cli@7.2.3)
 
@@ -5822,8 +5817,6 @@ snapshots:
   semver@5.5.0: {}
 
   semver@7.7.4: {}
-
-  semver@7.8.0: {}
 
   semver@7.8.5: {}
 

@@ -81,7 +81,7 @@
     "@typescript/native": "npm:typescript@^7.0.2",
     "blueimp-md5": "^2.19.0",
     "cross-env": "^10.1.0",
-    "css-loader": "^7.1.2",
+    "css-loader": "^7.1.5",
     "dayjs": "^1.11.23",
     "electron": "44.11.5",
     "electron-builder": "26.18.0",
